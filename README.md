@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Dev Habits
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Sobre o projeto
+Neste projeto em equipe tivemos que desenvolver uma aplicação para gerenciamento de hábitos pessoais e também em grupos com atividades e metas compartilhadas. Fazendo o uso e a manipulação de uma API Rest, em duas semanas a partir da metodologia Scrum e fazendo o uso de Kanban com a plataforma Trello fizemos o planejamento do projeto com a equipe, todo o design via Figma e a partir disso desenvolvemos do zero todas as funcionalidades.
 
-In the project directory, you can run:
+## Funcionalidades Presentes
 
-### `yarn start`
+### Cadastro
+A partir de um usuário, email e senha você pode se cadastrar na aplicação para fazer o uso das funcionalidades internas. Para essa parte foram usadas tecnologias como React Hookform, yup e axios para todas as requisições.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Login
+Aqui é possível completar os campos com seu nome e senha cadastrados, e com isso entrar de fato na aplicação via token de autenticação gerado pela API.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Para facilitar o processo, pode ser usado o usuário e senha a seguir:<br>
+<strong>usuário</strong>: rafaelsc<br>
+<strong>senha</strong>: 123456<br>
 
-### `yarn test`
+### Hábitos
+Nessa página você pode cadastrar novos hábitos na aplicação especificando Título, Categoria, Dificuldade e Frequência da atividade que pretende monitorar, após isso, será exibido na lista de hábitos cadastrados seu novo hábito. Depois conforme o andamento da atividade você pode ir marcando o check-in na atividade de forma que fique registrado o progresso da mesma, ou então excluir ela por completo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Grupos
+Através da barra lateral, você pode acessar a aba dos grupos, nessa página existe um campo para criação de novos grupos e visualização deles. A partir da barra de pesquisa um grupo esécífico pode ser encontrado e nele você pode se inscrever para fazer parte dos membros do grupo e também pode acessar as informações específicas dele clicando em "Ver Grupo".
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### -> Dentro do Grupo
+Dentro do grupo são apresentadas diversas informações como: o título, categoria e descrição, seus membros, suas metas e também suas atividades ambas podendo ser criadas e deletadas, além de serem completáveis também.
