@@ -1,6 +1,6 @@
 # Dev Habits
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link da Aplicação: http://habits-project-g2.vercel.app/
 
 ## Sobre o projeto
 Neste projeto em equipe tivemos que desenvolver uma aplicação para gerenciamento de hábitos pessoais e também em grupos com atividades e metas compartilhadas. Fazendo o uso e a manipulação de uma API Rest, em duas semanas a partir da metodologia Scrum e fazendo o uso de Kanban com a plataforma Trello fizemos o planejamento do projeto com a equipe, todo o design via Figma e a partir disso desenvolvemos do zero todas as funcionalidades.
